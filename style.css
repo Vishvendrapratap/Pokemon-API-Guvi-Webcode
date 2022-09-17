@@ -1,0 +1,33 @@
+
+.container{
+    border:1px;
+}
+.title{
+    text-align: center;
+}
+
+#btn{
+    margin-top: 10px;
+}
+
+#output-box{
+    margin-top: 20px; 
+}
+
+.card{
+    margin-bottom: 20px;  
+}
+
+.card-header{
+    text-align: center;
+}
+
+.card-body{
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+img{
+    padding-left: 100px;
+    padding-top: 25px;
+}
