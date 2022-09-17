@@ -14,8 +14,7 @@ body{
     text-align: center;
     border: 1px;
     border-radius: 10px;
-    background: hwb(221 49% 8% / 0.725);
-    box-shadow:  5px 5px 5px rgb(247, 247, 247);
+    box-shadow:  5px 5px 5px 5px rgb(247, 247, 247);
 }
 
 .description{
@@ -24,8 +23,7 @@ body{
     width:100%;
     border: 1px;
     border-radius: 10px;
-    background: #60a1ec69;
-    box-shadow:  5px 5px 5px rgb(247, 247, 247);
+    box-shadow:  5px 5px 5px 5px rgb(247, 247, 247);
 }
 #btn{
     margin-top: 10px;
