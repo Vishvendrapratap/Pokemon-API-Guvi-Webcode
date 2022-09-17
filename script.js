@@ -21,9 +21,9 @@ async function getInfo(){
             // getting output to brwoser
             document.getElementById("num").value = "";
             const div = document.createElement('div');
-            div.className="col-lg-4"
+            div.className="col-lg-4 col-md-6 col-sm-12"
             div.innerHTML=`
-            <div class="card" style="width: 18rem;">
+            <div class="card border-primary" style="width: 18rem;">
             <div class="card-header">
             <b>${data.name}</b>
             </div>

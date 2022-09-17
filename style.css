@@ -1,6 +1,11 @@
+body{
+	background: #a6effc;
+	background: linear-gradient(to right, #9dbcda5d, #85d6d6b9);
+}
 
 .container{
     border:1px;
+    
 }
 .title{
     text-align: center;
@@ -12,10 +17,19 @@
 
 #output-box{
     margin-top: 20px; 
+    
 }
 
 .card{
     margin-bottom: 20px;  
+    box-shadow: 10px 10px 10px rgb(233, 224, 224);
+    background:#85d6d6
+}
+
+.card:hover{
+    animation: forwards;
+    margin-bottom: 20px;  
+    box-shadow: 25px 25px 25px rgb(129, 154, 221);
 }
 
 .card-header{
@@ -26,8 +40,18 @@
     font-family: 'Courier New', Courier, monospace;
     
 }
-
+.pokemon-img{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 img{
-    padding-left: 100px;
-    padding-top: 25px;
+    width: 150px;
+    height: 150px;
+    background-color: #b3d8d860;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 0.5px solid rgba(55, 42, 230, 0.185);
+    border-radius: 50%;
 }
