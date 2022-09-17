@@ -1,6 +1,6 @@
 body{
 	background: #a6effc;
-	background: linear-gradient(to right, #9dbcda5d, #85d6d6b9);
+	background: linear-gradient(to right, #67a3dfa2, #7de0e0b9);
 }
 
 .container{
@@ -8,9 +8,25 @@ body{
     
 }
 .title{
+    margin: 5px;
+    padding: 5px;
+    width:100%;
     text-align: center;
+    border: 1px;
+    border-radius: 10px;
+    background: hwb(221 49% 8% / 0.725);
+    box-shadow:  5px 5px 5px rgb(247, 247, 247);
 }
 
+.description{
+    margin-top: 15px;
+    padding: 10px;
+    width:100%;
+    border: 1px;
+    border-radius: 10px;
+    background: #60a1ec69;
+    box-shadow:  5px 5px 5px rgb(247, 247, 247);
+}
 #btn{
     margin-top: 10px;
     width: 100px;
