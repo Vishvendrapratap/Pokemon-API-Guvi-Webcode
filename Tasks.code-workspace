@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "../Restcountries-Weather"
+		},
+		{
+			"name": "stock-api",
+			"path": "../stock-api"
+		},
+		{
+			"name": "zoo-animal-api",
+			"path": "../zoo-animal-api"
+		},
+		{
+			"name": "Pokemon-API-Guvi-Webcode",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "Pokemon-API-Guvi-Webcode"
+	}
+}
